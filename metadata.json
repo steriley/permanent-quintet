@@ -1,0 +1,6 @@
+{
+  "name": "MCR Lunch Club — The Sovereign Bench of Manchester Lunch",
+  "description": "The official ledger of verdicts, walking isochrones, and parliamentary lunch standards recorded at Spinningfields Crown Square, Manchester.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

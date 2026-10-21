@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline-xl: "Playfair Display", Georgia, serif;
+  --font-headline-lg: "Playfair Display", Georgia, serif;
+  --font-headline-md: "Playfair Display", Georgia, serif;
+  --font-headline-sm: "Playfair Display", Georgia, serif;
+  --font-title-editorial: "Playfair Display", Georgia, serif;
+  --font-body-lg: "Plus Jakarta Sans", sans-serif;
+  --font-body-md: "Plus Jakarta Sans", sans-serif;
+  --font-body-sm: "Plus Jakarta Sans", sans-serif;
+  --font-label-ledger: "Plus Jakarta Sans", sans-serif;
+  --font-label-button: "Plus Jakarta Sans", sans-serif;
+
+  --color-canvas-cream: #FBF6EA;
+  --color-surface-card: #F3ECDB;
+  --color-surface-paper: #F7F0DF;
+  --color-border-buff: #D9CFB8;
+  --color-primary: #001854;
+  --color-primary-container: #1b2f6b;
+  --color-on-primary: #ffffff;
+  --color-secondary: #8a5100;
+  --color-secondary-fixed: #ffdcbd;
+  --color-secondary-fixed-dim: #ffb86d;
+  --color-on-secondary-fixed: #2c1600;
+  --color-tertiary: #0e1b44;
+  --color-tertiary-container: #25315b;
+  --color-surface-bright: #fff8f3;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fbf2eb;
+  --color-surface-container: #f5ece5;
+  --color-surface-container-high: #efe7e0;
+  --color-surface-container-highest: #e9e1da;
+  --color-on-surface: #1e1b17;
+  --color-on-surface-variant: #454650;
+  --color-outline: #757681;
+  --color-outline-variant: #c5c6d1;
+  --color-tier-approved: #1E7A4E;
+  --color-tier-approved-bg: #E8F5EE;
+  --color-tier-consideration: #C27803;
+  --color-tier-consideration-bg: #FEF5E7;
+  --color-tier-assessed: #5A6474;
+  --color-tier-assessed-bg: #F0F2F5;
+  --color-tier-rejected: #B92B27;
+  --color-tier-rejected-bg: #FDF0F0;
+  --color-tier-reluctant: #7C3A82;
+  --color-tier-reluctant-bg: #F7EEF8;
+  --color-tier-archived: #71717A;
+  --color-tier-archived-bg: #F4F4F5;
+}
+
+@layer utilities {
+  .font-headline-xl {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+  .font-headline-lg {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+  .font-headline-md {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .font-headline-sm {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .font-title-editorial {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .font-ledger-subhead {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+  }
+  .font-label-ledger {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+  }
+  .font-label-button {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+  }
+  .font-body-lg {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .font-body-md {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+  .font-body-sm {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+  .px-gutter-desktop {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .py-space-md {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+  }
+  .py-space-xl {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+  .gap-space-md {
+    gap: 0.875rem;
+  }
+  .gap-space-lg {
+    gap: 1.5rem;
+  }
+  .gap-space-sm {
+    gap: 0.5rem;
+  }
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3ECDB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9CFB8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1b2f6b;
+}
